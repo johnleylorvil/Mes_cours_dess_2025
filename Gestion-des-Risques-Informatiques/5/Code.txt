@@ -1,0 +1,35 @@
+import requests
+# URL de l'API Ollama locale
+OLLAMA_API_URL = "http://localhost:11434/api/generate"
+# Corps de la requête
+data = {
+    "model": "mistral",
+    "prompt": "Plan de reprise de continuité d'activité",
+    "stream": False  # Mettre à True pour recevoir une réponse en streaming
+}
+# Requête POST vers l'API
+response = requests.post(OLLAMA_API_URL, json=data)
+# Vérification et affichage
+if response.status_code == 200:
+    result = response.json()
+    print("Réponse du modèle :", result["response"])
+else:
+    print("Erreur :", response.status_code, response.text)
+
+
+
+import requests
+# Lire votre base de connaissances
+with open("/home/austin/miniconda3/pca1.txt", "r", encoding="utf-8") as f:
+    base_connaissance = f.read()
+question = input("")
+prompt = f"Voici un extrait de ma base de connaissance : {base_connaissance} À partir de ces informations réponds à la question suivante :{question}"
+def demander_mixtral(prompt):
+    response = requests.post("http://localhost:11434/api/generate",json={"model": "mistral","prompt": prompt,"stream":False})
+    return response
+reponse = demander_mixtral(prompt)
+if reponse.status_code == 200:
+    result = reponse.json()
+    print("Réponse du modèle :", result["response"])
+else:
+    print("Erreur :", reponse.status_code, reponse.text)
