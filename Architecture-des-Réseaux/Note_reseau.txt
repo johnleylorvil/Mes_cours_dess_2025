@@ -1,5 +1,3 @@
  Réseaux informatiques
 Le cours sur les réseaux m’a aidé à saisir le fonctionnement des communications entre les systèmes informatiques. 
 Je dois approfondir la configuration des protocoles TCP/IP et le modèle OSI pour mieux analyser le trafic réseau.
-
-les notion a reviser: protocole APPN,protocole STP.
