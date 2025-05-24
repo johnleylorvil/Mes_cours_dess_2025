@@ -1,0 +1,4 @@
+ 1. Business Intelligence (BI)
+Ce cours m’a permis de comprendre comment transformer des données brutes en informations utiles pour la prise de décision. 
+Les deux notions que je dois approfondir sont la visualisation des données 
+et l’élaboration des tableaux de bord décisionnels.

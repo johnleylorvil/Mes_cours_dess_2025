@@ -1,0 +1,4 @@
+Gestion de projet informatique
+Ce cours m’a appris à planifier, exécuter et suivre les projets informatiques selon des méthodes structurées. 
+Je dois approfondir les notions de cycle de vie d’un projet (en cascade et agile) 
+et la gestion des ressources (temps, budget, équipe).

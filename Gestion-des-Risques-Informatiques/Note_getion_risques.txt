@@ -1,0 +1,3 @@
+Gestion des risques informatiques
+J’ai appris à identifier, évaluer et atténuer les risques liés aux systèmes d’information. Les deux notions clés à approfondir 
+sont la cartographie des risques et les plans de continuité et de reprise d’activité (PCA/PRA).
